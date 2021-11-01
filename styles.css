@@ -1,8 +1,22 @@
+body {
+	font-family: Montserrat;
+	margin: 0 50px;
+	background-color: #ff9f45;
+}
+
 h1 {
-	font-size: 40px;
+	font-size: 60px;
+	font-family: Unna;
+	margin: 20px auto;
 }
 
 img {
 	width: 400px;
 	border-radius: 15px;
+}
+
+h2 {
+	font-family: Unna;
+	font-size: 30px;
+	margin: 10px auto;
 }
