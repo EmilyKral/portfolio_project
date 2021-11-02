@@ -1,6 +1,6 @@
 html {
 	box-sizing: border-box;
-	height: 100%;
+	min-height: 100%;
 	margin: 0;
 }
 
@@ -11,11 +11,9 @@ body {
 	background-image: linear-gradient(rgb(247, 237, 60), rgb(243, 74, 97));
 	background-size: cover;
 	background-repeat: no-repeat;
-	height: 100%;
+	min-height: 100%;
 	background-position: center;
 }
-
-/* #ff9f45 - nice orange */
 
 h1 {
 	font-size: 60px;
@@ -23,7 +21,7 @@ h1 {
 	margin: 20px auto;
 }
 
-#introduction {
+#about-me {
 	display: flex;
 }
 
@@ -34,12 +32,12 @@ img {
 	display: inline-block;
 }
 
-#about-me {
+.section-text {
 	display: inline-block;
 	margin-left: 15px;
 }
 
-#about-me p {
+.section-text p {
 	background-color: #fff;
 	padding: 10px 8px;
 	margin: 5px auto;
@@ -51,4 +49,8 @@ h2 {
 	font-size: 30px;
 	margin-top: 0;
 	margin-bottom: 10px;
+}
+
+section {
+	margin-bottom: 15px;
 }
