@@ -1,8 +1,21 @@
+html {
+	box-sizing: border-box;
+	height: 100%;
+	margin: 0;
+}
+
 body {
 	font-family: Montserrat;
-	margin: 0 50px;
-	background-color: #ff9f45;
+	width: 85%;
+	margin: 0 auto;
+	background-image: linear-gradient(rgb(247, 237, 60), rgb(243, 74, 97));
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 100%;
+	background-position: center;
 }
+
+/* #ff9f45 - nice orange */
 
 h1 {
 	font-size: 60px;
@@ -10,13 +23,32 @@ h1 {
 	margin: 20px auto;
 }
 
+#introduction {
+	display: flex;
+}
+
 img {
 	width: 400px;
+	max-height: 400px;
+	border-radius: 15px;
+	display: inline-block;
+}
+
+#about-me {
+	display: inline-block;
+	margin-left: 15px;
+}
+
+#about-me p {
+	background-color: #fff;
+	padding: 10px 8px;
+	margin: 5px auto;
 	border-radius: 15px;
 }
 
 h2 {
 	font-family: Unna;
 	font-size: 30px;
-	margin: 10px auto;
+	margin-top: 0;
+	margin-bottom: 10px;
 }
